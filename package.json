@@ -1,0 +1,22 @@
+{
+  "name": "back_admin_usuarios",
+  "version": "1.0.0",
+  "description": "backend de administracion de usuarios para cajonv3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rolandoperezz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "oracledb": "^5.0.0"
+  }
+}
