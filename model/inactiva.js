@@ -9,7 +9,7 @@ async function M_estado_mag_colonias(array) {
         SET 
         ESTADO = '${array.ESTADO}',
         USUARIO_WEB_MOD_ESTADO = '${array.USUARIO_WEB_MOD_ESTADO}'
-        WHERE CORRELATIVO = ${array.CORRELATIVO}`
+        WHERE CODIGO = ${array.CODIGO}`
 
         try {
             oracledb.outFormat = oracledb.OBJECT;

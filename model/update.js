@@ -31,7 +31,7 @@ async function M_U_mag_colonias(array) {
             OBSERVACION = '${array.OBSERVACION}', 
             USUARIO_MODIFICA_WEB = '${array.USUARIO_MODIFICA_WEB}'
         WHERE ESTADO = 'A'
-        AND CORRELATIVO = ${array.CORRELATIVO}`
+        AND CODIGO = ${array.CODIGO}`
 
         try {
             oracledb.outFormat = oracledb.OBJECT;
